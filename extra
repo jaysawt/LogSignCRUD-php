@@ -1,0 +1,84 @@
+<!-- <?php
+                        $sql = "SELECT * FROM `notes`";
+                        $result = mysqli_query($conn, $sql);
+                        $no = 0;
+                        while($row = mysqli_fetch_assoc($result)){
+                            $no+= 1;
+                            echo '<tr>
+                            <th scope="row">'. $no . '</th>
+                            <td>'. $row['title'] .'</td>
+                            <td><button class="edit btn btn-sm btn-primary" id='. $row['sno'] . '>Edit</button> <button class="delete btn btn-sm btn-danger" id=d'. $row['sno'] . '>Delete</button></td>
+                            </tr>';
+                        }
+                    ?> -->
+
+
+
+
+<!-- <form id="signupForm" action="includes/signup.inc.php" method="post" novalidate>
+                <h2>Sign Up</h2>
+                <?php
+                    // signup_inputs();
+                ?>
+                <input type="submit" value="Sign Up">
+            </form> -->
+
+
+            <?php
+
+/*declare(strict_types=1);
+
+function signup_inputs(){
+    
+    echo '<label for="signupUsername">Username:</label>';
+    if (isset($_SESSION['signup_data']['username']) && !isset($_SESSION['error_signup']['username_taken'])){
+        echo '<input type="text" id="signupUsername" name="signupUsername" required value="'. $_SESSION['signup_data']['username'] .'">';
+    }else{
+        echo '<input type="text" id="signupUsername" name="signupUsername" required>';
+    }        
+
+    echo '<label for="signupUseremail">Email:</label>';
+    if (isset($_SESSION['signup_data']['email']) && !isset($_SESSION['error_signup']['invalid_email']) && !isset($_SESSION['error_signup']['email_used'])){
+        echo '<input type="text" id="signupUseremail" name="signupUseremail" required value="'. $_SESSION['signup_data']['email'] .'">';
+
+    }else{
+        echo '<input type="text" id="signupUseremail" name="signupUseremail" required>';
+    }
+
+
+    echo '<label for="signupPassword">Password:</label>';
+    echo '<input type="password" id="signupPassword" name="signupPassword" required>';
+
+}
+
+function check_signup_errors(){
+    if (isset($_SESSION['error_signup'])) {
+        $errors = $_SESSION['error_signup'];
+        
+        echo "<br>";
+
+        foreach($errors as $error){
+            echo "<p class='form-error'>". $error . "</p>";
+        }
+
+        unset($_SESSION['error_signup']);
+    }else if (isset($_GET['signup']) && $_GET['signup']==='success'){
+        echo '<br>';
+        echo "<p class='form-success'>Signed in  successfully!</p>";
+    }
+}
+
+?>*/
+
+
+
+
+
+
+
+
+
+
+
+
+
